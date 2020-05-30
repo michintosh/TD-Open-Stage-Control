@@ -9,11 +9,11 @@ But many people don't wanna spend money on apps for experiments, or maybe they w
 In this case, Open Stage Control is the perfect choice to go: it's Open Source, and it's written and compiled in Electron, which gives us some of the cool features of Javascript and CSS for styling.
 
 Index of contents:
-- Installation
-- Open Stage Control Setup
- 	- Setup a basic controller
-- TouchDesigner Setup
-- Importing and Exporting Layouts
+- [Installation](#installation)
+- [Open Stage Control Setup](#open-stage-control-setup)
+ 	- [Setup a basic controller](#setup-a-basic-controller)
+- [TouchDesigner Setup](#touchdesigner-setup)
+- [Importing and Exporting Layouts](#importing-and-exporting-layouts)
 
 ## Installation
 First you must download both TouchDesigner and Open Stage Control.
@@ -109,3 +109,13 @@ If we now move around the slider while playing the project we can see how the sl
 Connect the **Render TOP** to an **Out TOP** to see this while in **Perform Mode** in TouchDesigner.
 
 ![](http://dcaccademia.abaurbino.it/owncloud/index.php/s/TkRTOVA1frETlwt/download)
+
+## Importing and Exporting Layouts
+
+One of the cool features of Open Stage Control is that, being written in full JavaScript, it gives us the possibility to import and export our layouts in .JSON format.
+To do this, simply click on the three dots icon in the top left corner of the controller window, there we have **Session>Import** and **Session>Export**.
+Here we are prompted to a dialog window where we can choose the file we wish to import/location to export our layout.
+
+In this guide, you'll find inside the **examples** directory other directories with both the **.toe** file for TouchDesigner and the **.json** file for the layout of that Open Stage Control controller.
+NOTE
+Remember to set the right port number in the Open Stage Control setup window, in all of my examples I've used the port **3746**.
