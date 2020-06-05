@@ -1,6 +1,6 @@
 # TouchDesigner and Open Stage Control
 
-This guide is for setup a basic environement for live performance using [TouchDesigner](https://derivative.ca/) and [Open Stage Control](https://openstagecontrol.ammd.net/) to receive and send OSC messages via UDP protocol.
+This guide is for setup a basic environment for live performance using [TouchDesigner](https://derivative.ca/) and [Open Stage Control](https://openstagecontrol.ammd.net/) to receive and send OSC messages via UDP protocol.
 
 There are already some software that enables this kind of comunication, like TouchOSC and the TouchOSC Bridge, both of which I've personally tried and they sure do their job flawlessy.
 
